@@ -2,7 +2,7 @@
 <html lang="en-US">
 
 <head>
-    <title>Resultado sin Disponibilidad | Corpusa</title>
+   <title>Sucursal Los Angeles | Corpusa</title>
    
     <meta name="robots" content="index follow">
     <meta name="googlebot" content="index follow">
@@ -26,126 +26,15 @@
     <link rel="stylesheet" href="css/responsive.css">
 
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/sticky-sidebar.js"></script>
 
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="js/jquery.gomap-1.3.3.min.js"></script>
+	  <script type="text/javascript" src="js/sticky-sidebar.js"></script>
 
 </head>
 
 <body>
-
-<!-- MODAL ENVIO DE PRESUPUESTO -->
-	
-	<div id="presupuesto" class="modal fade">
-    <div class="modal-dialog modal-md">
-        <div class="modal-content">
-          
-            <div class="modal-body">
-			 <button type="button" class="bootbox-close-button close" data-dismiss="modal" aria-hidden="true">×</button>
-			<div class="modal-header row form-group">
-                                   
-                                    <h5 class="text-uppercase italic text-medium font-weight-600 trn">Enviar Presupuesto </h5>
-                                </div>
-               
-              <div class="row">
-                    <div class="col-md-12" >
-						
-								<div class="row">
-								<div class="col-md-6 col-sm-12">
-								<h3 class="text-uppercase text-medium font-weight-600"><a id="apiom_quote_model" class="text-dark trn">Ford Kuga o Similar </a></h3>
-								
-								<img id="apiom_quote_picture" src="images/auto.jpg" width="70%"/></br>
-								
-									 <small class="text-uppercase text-extra-small">
-                                            <a  class="text-grey-4"><i class="fa fa-user margin-right-5px"></i>
-                                            <span id="apiom_quote_capacity" class=" margin-right-5px text-red trn">5</span> <i class="fa fa-automobile  margin-right-5px"></i>
-                                            <span id="apiom_quote_tanksize" class=" margin-right-5px text-red trn">nafta</span><i class="fa fa-share-alt margin-right-5px"></i>
-                                            <span id="apiom_quote_transmission" class=" margin-right-5px text-red trn">Manual</span><img src="images/puertas.png" class="margin-right-5px"></i>
-                                            <span id="apiom_quote_doors" class=" margin-right-5px text-red trn">5</span></a>
-                                        </small></br>
-                                    <small class="text-uppercase text-extra-small">
-                                            <a  class="text-grey-4"><i class="fa fa-map-marker margin-right-5px"></i>
-                                            <span class=" margin-right-5px trn">Entrega</span> <span id="apiom_quote_pickup" class="badge badge-red text-extra-small trn">Oficina</span></a>
-                                        </small>
-								<ul class="list-unstyled" style="margin-top:10px;margin-bottom:10px; ">
-                                           <li class="trn" style="padding-bottom: 5px;"> FRANQUICIA <i class="ti-info-alt"></i></li>  <div id="faq-collapse2"  role="tabpanel" aria-labelledby="faq-heading2">           
-										<li><p style="font-size:0.8em; margin-bottom:0px;"><input type="checkbox" checked="checked" disabled="disabled" class="free-benefits-title2 trn" style="width: 10px;">
-      Protección Total (LDW)  <i class="ti-info-alt" title="Protección contra robo, hurto, incendio y perdida total del vehículo, daños y averías causados al vehículo por colisión o accidente, causando que el Locatario deba abonar el arreglo del vehículo hasta el valor de la franquicia establecida en el contrato." alt="Protección contra robo, hurto, incendio y perdida total del vehículo, daños y averías causados al vehículo por colisión o accidente, causando que el Locatario deba abonar el arreglo del vehículo hasta el valor de la franquicia establecida en el contrato." style="width: 15px;"></i> </p>
-									</li> 
-									<li>
-										<p style="font-size:0.8em; margin-bottom:0px;"><input type="checkbox" checked="checked" disabled="disabled" class="free-benefits-title2 trn" style="width: 10px;">
-     Protección a Terceros (ALI)  <i class="ti-info-alt" title="Prote&#231;&#227;o contra danos materiais e pessoais causados a terceiros em raz&#227;o de acidentes com o VE&#205;CULO locado com participa&#231;&#227;o do LOCAT&#193;RIO em franquia at&#233; os valores estabelecidos no CONTRATO DE LOCA&#199;&#195;O." alt="Prote&#231;&#227;o contra danos materiais e pessoais causados a terceiros em raz&#227;o de acidentes com o VE&#205;CULO locado com participa&#231;&#227;o do LOCAT&#193;RIO em franquia at&#233; os valores estabelecidos no CONTRATO DE LOCA&#199;&#195;O." style="width: 15px;"></i></p>
-									</li> 
-									<li>
-										<p style="font-size:0.8em; margin-bottom:0px;"><input type="checkbox" checked="checked" disabled="disabled" class="free-benefits-title2 trn" style="width: 10px;">
-   Franquicia por Accidente <span class="currencies">
-							<span class="money price">
-							<abbr class="unit">AR$</abbr>
-							<span class="amount   apiom_price_franchise">13000.00</span>
-							<abbr class="currency" title="ARS"></abbr>
-							</span>	</span><i class="ti-info-alt" title="Al momento de retirar el vehículo se efectuará un bloqueo de su tarjeta de crédito por el monto de la &quot;Franquicia por Accidente&quot;, de ser necesario se le pedirá más de una tarjeta, el cual se retorna al momento de la devolución del vehículo " alt="Al momento de retirar el vehículo se efectuará un bloqueo de su tarjeta de crédito por el monto de la &quot;Franquicia por Accidente&quot;, de ser necesario se le pedirá más de una tarjeta, el cual se retorna al momento de la devolución del vehículo " style="width: 15px;"></i></p>
-									</li> 
-                                       </div>             
-                                                </ul>
-							</div>
-								 <div class="col-md-6 padding-top-30px" >
-								<div class="form-group">
-								
-                                    <div class="form-group"><input id="apiom_quote_name" class="form-control trn" type="text" placeholder="Nombre"></div>
-                                </div>
-								 
-								<div class="form-group">
-								
-                                    <div class="form-group"><input id="apiom_quote_surname" class="form-control trn" type="text" placeholder="Apellido"></div>
-                                </div>
-								
-						 <div class="form-group">
-								
-                                    <div class="form-group"><input id="apiom_quote_email" class="form-control trn" type="text" placeholder="Email"></div>
-                                </div>
-								
-                               <div class="form-group">
-								
-                                    <div class="form-group"><input id="apiom_quote_country" class="form-control trn" type="text" placeholder="País"></div>
-                                </div>
-								
-								
-							<div class="form-row" >
-								
-								 <div class="col-md-3 col-xs-3">
-								
-								<div class="form-group"><input id="apiom_quote_ddn" class="form-control" type="text" placeholder="54"></div>
-                                
-								</div>
-								 <div class="col-md-3 col-xs-3" >
-								
-								<div class="form-group"><input id="apiom_quote_ddi" class="form-control" type="text" placeholder="11"></div>
-                                
-								</div>
-								 <div class="col-md-6 col-xs-6" >
-								
-								<div class="form-group"><input id="apiom_quote_phonenumber" class="form-control" type="text" placeholder="45440000"></div>
-                               
-								 </div>
-								  </div>
-								  
-                                <div class="form-group">
-                                  
-									 <a id="apiom_submit_quote" href="#"   class="btn-sm btn-lg btn-block background-main-color text-white text-center text-uppercase font-weight-600 margin-top-30px padding-7px trn">enviar</a>
-                                </div>
-								  </div>
-                    </div>
-					 </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-	 </div>
-<!-- END MODAL ENVIO DE PRESUPUESTO -->
-
-
-
-   <!-- MODAL LOGINS -->
+      <!-- MODAL LOGINS -->
 	
 	<div id="mis-reservas" class="modal fade">
     <div class="modal-dialog modal-lg">
@@ -308,7 +197,7 @@
 	 
 <!-- END MODAL LOGINS -->
    
-    <!-- Header  -->
+   <!-- Header  -->
     <header class="background-white box-shadow">
         <div class="background-second-color padding-tb-5px">
             <div class="container">
@@ -340,7 +229,7 @@
 						<li><a href="flota.html" class="trn" ><span  class=" trn">Flota</span></a></li>
 						<li style="display: none;"><a   id="apiom_logout" ><span class="trn">Cerrar Sesión</span></a></li>
 							
-						<li class="has-dropdown"><a class="apiom_ul_monedas"   >US$ </a>
+						<li class="has-dropdown"><a class="apiom_ul_monedas"   >US$</a>
 						<ul id="apiom_ulMonedaUsuario" class="sub-menu" role="menu">
 								<li class="convert" data-to-currency="ARS" id="ARS"><a>$ (ARS)</a></li>
 								<li class="convert" data-to-currency="USD" id="USD"><a>US$ (USD)</a></li>
@@ -370,11 +259,11 @@
         </div>
     </header>
     <!-- // Header  -->
-  <!-- Page title --->
+   <!-- Page title --->
     <div id="page-title" class="text-grey  background-red" >
         <div class="text-center">
             <div class="container z-index-2 position-relative">
-                <h5 class="font-weight-700 italic text-uppercase padding-tb-40px margin-0px trn">Resultado de Búsqueda</h5>
+                <h5 class="font-weight-700 italic text-uppercase padding-tb-40px margin-0px trn">Sucursal</h5>
             </div>
             
         </div>
@@ -382,113 +271,25 @@
     <!-- Page title --->
 
 
-    <!-- page output -->
+   <!-- page output -->
     <div class="padding-tb-40px background-light-grey">
         <div class="container">
-
             <div class="row">
-			
-			 <!-- Sidebar DESKTOP -->
-                <div   class="col-lg-3 sticky-sidebar content-desktop">
+
+                <!-- sidebar -->
+               
+
+                   <!-- Sidebar MOBILE -->
+                <div  class="col-lg-4 sticky-sidebar content-mobile">
                     <!--  Search -->
                     <div class="widget">
-                        <h4 class="widget-title clearfix"><span class="trn">Otras Fechas</span></h4>
-                        <div class="search-filter">
-                             <div class="form-group ">
-                                <label class="trn">Ciudad desde</label>
-                                <div class="destination"><select   type="text" class="apiom_ciudad_desde input-text full-width" placeholder="Ciudad">
-								 <option  class="trn">Ciudad</option>
-                                                                    <option>Bariloche</option>
-                                                                    <option>Salta</option>
-								
-								</select></div>
-                            </div>
-							<div class="form-group ">
-                                <label class="trn">Ciudad hasta</label>
-                                <div class="destination"><select   type="text" class="apiom_ciudad_hasta input-text full-width" placeholder="Ciudad">
-								 <option  class="trn">Ciudad</option>
-                                                                    <option>Bariloche</option>
-                                                                    <option>Salta</option>
-								
-								</select></div>
-                            </div>
-                            <div class="form-group ">
-                                <label class="trn">Fecha desde</label>
-                                <div class="date-input"><input   type="text" class="apiom_fecha_desde input-text datepicker full-width" value="15/5/ 2021"></div>
-                            </div>
-							 <div class="form-group ">
-                                <label class="trn">Hora desde</label>
-                               <div class="time-input2"><input   type="time" class="apiom_hora_desde input-text  full-width" ></div>
-                            </div>
-                            <div class="form-group ">
-                                <label class="trn">Fecha hasta</label>
-                                <div class="date-input"><input  type="text" class="apiom_fecha_hasta input-text datepicker full-width" value="25/5/2021"></div>
-                            </div>
-							 <div class="form-group ">
-                                <label class="trn">Hora hasta</label>
-                               <div class="time-input3"><input   type="time" class="apiom_hora_hasta input-text  full-width" ></div>
-                            </div>
-                            <a href="#"    class="apiom_submit_search btn-sm btn-lg btn-block background-main-color text-white text-center text-uppercase font-weight-600 margin-top-30px padding-7px trn"> Buscar auto</a>
-                        </div>
-                    </div>
-                    <!-- //  Hotels Search -->
-
-                   
-
-                    <!-- Price Search -->
-                    <div class="widget">
-                        <h4 class="widget-title clearfix"><span class="trn">Categorias</span></h4>
-						 <div id="apiom_container_model_filter">
-						<div class="form-check">
-                            <label class="form-check-label">
-                                <input class="form-check-input position-static apiom_model_filter_checkbox trn" type="checkbox"  value="todos" aria-label="..."> <span class="apiom_model_filter_model">Todos</span>
-                              </label>
-                        </div>
-                       <div class="form-check">
-                          <label class="form-check-label">
-                                <input class="form-check-input position-static apiom_model_filter_checkbox trn" type="checkbox"  value="Compacto" aria-label="..."> <span class="apiom_model_filter_model">Compacto </span>
-                              </label>
-                        </div>
-                       <div class="form-check">
-                            <label class="form-check-label">
-                                 <input class="form-check-input position-static apiom_model_filter_checkbox trn" type="checkbox"  value="Mediano" aria-label="..."> <span class="apiom_model_filter_model"> Mediano </span>
-                              </label>
-                        </div>
-                        <div class="form-check">
-                            <label class="form-check-label">
-                                 <input class="form-check-input position-static apiom_model_filter_checkbox trn" type="checkbox"  value="Sport/SUV" aria-label="..."> <span class="apiom_model_filter_model"> Sport/SUV</span>
-                              </label>
-                        </div>
-                      <div class="form-check">
-                            <label class="form-check-label">
-                                <input class="form-check-input position-static apiom_model_filter_checkbox trn" type="checkbox"  value="Familiar" aria-label="..."> <span class="apiom_model_filter_model"> Familiar </span>
-                              </label>
-                        </div>
-                        <div class="form-check">
-                            <label class="form-check-label">
-                                 <input class="form-check-input position-static apiom_model_filter_checkbox trn" type="checkbox"  value="Van" aria-label="..."> <span class="apiom_model_filter_model"> Van </span>
-                              </label>
-                        </div>
-                        <div class="form-check">
-                            <label class="form-check-label">
-                                 <input class="form-check-input position-static apiom_model_filter_checkbox trn" type="checkbox"  value=" Pick Up" aria-label="..."> <span class="apiom_model_filter_model"> Pick Up</span>
-                              </label>
-                        </div>
-						</div>
-                    </div>
-                </div>
-                <!-- //  Sidebar -->
-                <!-- Sidebar MOBILE -->
-                <div   class="col-lg-3 sticky-sidebar content-mobile">
-                    <!--  Search -->
-                    <div class="widget">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-1" aria-expanded="false"  class="btn-sm btn-lg btn-block background-main-color text-white text-center text-uppercase font-weight-600  padding-7px trn"><span>Otras Fechas <i class="fa fa-search"></i></span></a>
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-1" aria-expanded="false"  class="btn-sm btn-lg btn-block background-main-color text-white text-center text-uppercase font-weight-600  padding-7px trn"><span class="trn">Buscar Auto <i class="fa fa-search"></i></span></a>
 						
-                        <div class="search-filter panel-collapse   margin-top-10px   apiom_collapsable" id="collapse-1" class=" " role="tabpanel" aria-expanded="false">
-                              <div class="form-group ">
+                        <div class="search-filter panel-collapse collapse margin-top-10px" id="collapse-1" class=" " role="tabpanel" aria-expanded="false">
+                            <div class="form-group ">
                                 <label class="trn">Ciudad desde</label>
-                                <div class="destination"><select   type="text" class="apiom_ciudad_desde input-text full-width" placeholder="Ciudad">
-								 <option  class="trn">Ciudad</option>
+                                <div class="destination"><select id="apiom_ciudad_desde"  type="text" class="input-text full-width" placeholder="Ciudad">
+								 <option class="trn">Ciudad</option>
                                                                     <option>Bariloche</option>
                                                                     <option>Salta</option>
 								
@@ -496,8 +297,8 @@
                             </div>
 							<div class="form-group ">
                                 <label class="trn">Ciudad hasta</label>
-                                <div class="destination"><select   type="text" class="apiom_ciudad_hasta input-text full-width" placeholder="Ciudad">
-								 <option  class="trn">Ciudad</option>
+                                <div class="destination"><select id="apiom_ciudad_hasta"  type="text" class="input-text full-width" placeholder="Ciudad">
+								 <option class="trn">Ciudad</option>
                                                                     <option>Bariloche</option>
                                                                     <option>Salta</option>
 								
@@ -505,122 +306,147 @@
                             </div>
                             <div class="form-group ">
                                 <label class="trn">Fecha desde</label>
-                                <div class="date-input"><input   type="text" class="apiom_fecha_desde input-text datepicker full-width" value="15/5/ 2021"></div>
+                                <div class="date-input"><input id="apiom_fecha_desde" type="text" class="input-text datepicker full-width" value="15/5/2021"></div>
                             </div>
 							 <div class="form-group ">
                                 <label class="trn">Hora desde</label>
-                               <div class="time-input2"><input   type="time" class="apiom_hora_desde input-text  full-width" ></div>
+                               <div class="time-input2"><input id="apiom_hora_desde" type="time" class="input-text  full-width"  ></div>
                             </div>
                             <div class="form-group ">
                                 <label class="trn">Fecha hasta</label>
-                                <div class="date-input"><input  type="text" class="apiom_fecha_hasta input-text datepicker full-width" value="25/5/2021"></div>
+                                <div class="date-input"><input id="apiom_fecha_hasta" type="text" class="input-text datepicker full-width" value="25/5/2021"></div>
                             </div>
 							 <div class="form-group ">
                                 <label class="trn">Hora hasta</label>
-                               <div class="time-input3"><input   type="time" class="apiom_hora_hasta input-text  full-width" ></div>
+                               <div class="time-input3"><input id="apiom_hora_hasta"  type="time" class="input-text  full-width" ></div>
                             </div>
-                            <a href="#"    class="apiom_submit_search btn-sm btn-lg btn-block background-main-color text-white text-center text-uppercase font-weight-600 margin-top-30px padding-7px trn"> Buscar auto</a>
+                            <a href="#" id="apiom_submit_search"  class="btn-sm btn-lg btn-block background-main-color text-white text-center text-uppercase font-weight-600 margin-top-30px padding-7px trn"> Buscar auto</a>
                         </div>
                     </div>
                     <!-- //   Search -->
 
-                   
-
-                    <!-- Car Search -->
-                    <div class="widget">
-                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-2" aria-expanded="false"  class="btn-sm btn-lg btn-block background-main-color text-white text-center text-uppercase font-weight-600  padding-7px trn"><span>Categoria <i class="fa fa-search"></i></span></a>
-					   <div class=" panel-collapse   margin-top-10px   apiom_collapsable" id="collapse-2"  role="tabpanel" aria-expanded="false">
-                        <div id="apiom_container_model_filter">
-						<div class="form-check">
-                            <label class="form-check-label">
-                                <input class="form-check-input position-static apiom_model_filter_checkbox trn" type="checkbox"  value="todos" aria-label="..."> <span class="apiom_model_filter_model">Todos</span>
-                              </label>
-                        </div>
-                       <div class="form-check">
-                          <label class="form-check-label">
-                                <input class="form-check-input position-static apiom_model_filter_checkbox trn" type="checkbox"  value="Compacto" aria-label="..."> <span class="apiom_model_filter_model">Compacto </span>
-                              </label>
-                        </div>
-                       <div class="form-check">
-                            <label class="form-check-label">
-                                 <input class="form-check-input position-static apiom_model_filter_checkbox trn" type="checkbox"  value="Mediano" aria-label="..."> <span class="apiom_model_filter_model"> Mediano </span>
-                              </label>
-                        </div>
-                        <div class="form-check">
-                            <label class="form-check-label">
-                                 <input class="form-check-input position-static apiom_model_filter_checkbox trn" type="checkbox"  value="Sport/SUV" aria-label="..."> <span class="apiom_model_filter_model"> Sport/SUV</span>
-                              </label>
-                        </div>
-                      <div class="form-check">
-                            <label class="form-check-label">
-                                <input class="form-check-input position-static apiom_model_filter_checkbox trn" type="checkbox"  value="Familiar" aria-label="..."> <span class="apiom_model_filter_model"> Familiar </span>
-                              </label>
-                        </div>
-                        <div class="form-check">
-                            <label class="form-check-label">
-                                 <input class="form-check-input position-static apiom_model_filter_checkbox trn" type="checkbox"  value="Van" aria-label="..."> <span class="apiom_model_filter_model"> Van </span>
-                              </label>
-                        </div>
-                        <div class="form-check">
-                            <label class="form-check-label">
-                                 <input class="form-check-input position-static apiom_model_filter_checkbox trn" type="checkbox"  value=" Pick Up" aria-label="..."> <span class="apiom_model_filter_model"> Pick Up</span>
-                              </label>
-                        </div>
-						</div>
-						
-						 </div>
-                       
-                       
-                    </div>
-                </div>
-                <!-- //  Sidebar -->
-
-                <!-- Content -->
-                <div class="col-lg-9">
-				<div class="flight-post background-white border-bottom-1 border-grey-1 with-hover box-shadow-hover margin-bottom-40px">
-                        <div class="row no-gutters">
-                           
-                            <div class="col-lg-12">
-							  <div class="row price-style-two"  >
-                        <div class="col-md-12 col-sm-12 clearfix text-center" style="padding-top:30px;">
-						
-						  <h4 class=" "><i class="fa fa-car" /></i></h4>
-                            <h5 class=" trn"></br>No se ha encontrado disponibilidad, comuniquese con nosotros a info@corpusa.com</h5>
-                        </div><!-- /.col-md-9 -->
-                        </div>
-                            </div>
-                        </div>
-                    </div>
 
                    
-
-
-                    
-                   
-					
-					
-
-
-                    
 
                  
 
+                   
+
 
                 </div>
-                <!-- // Content -->
-            </div>
-            <!-- //  row -->
+				
+				 <div class="col-lg-4 sticky-sidebar content-desktop">
+                    <!--  Search Desktop-->
+                    <div class="widget">
+                        <h4 class="widget-title clearfix"><span class="trn">Buscar Auto</span></h4>
+                        <div class="search-filter">
+                             <div class="form-group ">
+                                <label class="trn">Ciudad desde</label>
+                                <div class="destination"><select id="apiom_ciudad_desde"  type="text" class="input-text full-width" placeholder="Ciudad">
+								 <option class="trn">Ciudad</option>
+                                                                    <option>Bariloche</option>
+                                                                    <option>Salta</option>
+								
+								</select></div>
+                            </div>
+							<div class="form-group ">
+                                <label class="trn">Ciudad hasta</label>
+                                <div class="destination"><select id="apiom_ciudad_hasta"  type="text" class="input-text full-width" placeholder="Ciudad">
+								 <option class="trn">Ciudad</option>
+                                                                    <option>Bariloche</option>
+                                                                    <option>Salta</option>
+								
+								</select></div>
+                            </div>
+                            <div class="form-group ">
+                                <label class="trn">Fecha desde</label>
+                                <div class="date-input"><input id="apiom_fecha_desde" type="text" class="input-text datepicker full-width" value="25/5/2021"></div>
+                            </div>
+							 <div class="form-group ">
+                                <label class="trn">Hora desde</label>
+                               <div class="time-input2"><input id="apiom_hora_desde" type="time" class="input-text  full-width"  ></div>
+                            </div>
+                            <div class="form-group ">
+                                <label class="trn">Fecha hasta</label>
+                                <div class="date-input"><input id="apiom_fecha_hasta" type="text" class="input-text datepicker full-width" value="25/5/2021"></div>
+                            </div>
+							 <div class="form-group ">
+                                <label class="trn">Hora hasta</label>
+                               <div class="time-input3"><input id="apiom_hora_hasta"  type="time" class="input-text  full-width" ></div>
+                            </div>
+                            <a href="#" id="apiom_submit_search"  class="btn-sm btn-lg btn-block background-main-color text-white text-center text-uppercase font-weight-600 margin-top-30px padding-7px trn"> Buscar auto</a>
+                        </div>
+                    </div>
+					</div>
+                    <!-- //   Search Desktop -->
+                <!-- // sidebar -->
 
+                <!--  content -->
+                <div class="col-lg-8 col-md-8 ">
+
+                    <!-- texto -->
+                    <div class="blog-entry background-white border-1 border-grey-1 margin-bottom-35px">
+                      
+                        <div class="padding-30px">
+                          
+                            <h4 class="d-block  text-capitalize  text-dark font-weight-700 margin-tb-10px  trn">Sucursal Los Ángeles </h4>
+							  <div class="meta">
+                                <span class="margin-right-20px text-medium trn">Dirección : <span class="text-red"> 6625 W Century Blvd, Los Ángeles, CA</span></span></br>
+                                <span class="margin-right-20px text-medium trn">Teléfono : <span class="text-red">+1 8008114672</span></span></br>
+                                <span class="margin-right-20px text-medium trn">Email : <span class="text-red">customercare@corpusarent.com</span></span>
+                            </div>
+							
+						
+                            <div class="post-entry">
+                                <div class="d-block text-up-small text-grey-4 margin-bottom-15px">
+                                    <p class="text-bold italic text-red trn">Los Ángeles, la Ciudad de los Ángeles, es una fascinante mezcla de lujo, glamour y posibilidades infinitas. Desde puntos de referencia icónicos hasta joyas escondidas, esta metrópolis expansiva ofrece una gran cantidad de experiencias para cada viajero.</p>
+                                    <h5 style="color:#333" class=" trn">Explora el letrero de Hollywood:</h5>
+                                    <p class="trn"> Tu aventura en Los Ángeles comienza con una icónica sesión de fotos en el letrero de Hollywood. Camina por el sendero del Observatorio Griffith para obtener una vista panorámica del letrero y del horizonte de la ciudad. Es un comienzo perfecto para tu aventura en Los Ángeles.</p>
+                                    
+                                    <h5 style="color:#333" class=" trn">Pasea por Venice Beach: </h5>
+                                    <p class=" trn">Venice Beach es un centro vibrante de creatividad y excentricidad. Camina por el famoso paseo marítimo, observa a los artistas callejeros y explora las tiendas eclécticas. No olvides visitar el Muscle Beach Gym y tomar una foto con los coloridos Graffiti Walls de Venice Beach.</p>
+                                    <h5 style="color:#333" class=" trn">Visita el muelle de Santa Mónica: </h5>
+                                    <p class=" trn">Experimenta la magia del muelle de Santa Mónica, completo con un parque de diversiones, una sala de juegos y impresionantes vistas al océano. Súbete a la noria para disfrutar de un panorámica impresionante al atardecer.</p>
+                                    <h5 style="color:#333" class=" trn">Paseo por Rodeo Drive:</h5>
+                                    <p class=" trn"> Para compras de lujo y avistamientos de celebridades, Rodeo Drive en Beverly Hills es una visita obligada. Incluso si no estás comprando, un paseo tranquilo por esta famosa calle es una experiencia en sí misma.</p>
+                                    <p class=" trn">Los Ángeles es una ciudad de exploración infinita, donde los sueños y la realidad chocan. Desde calles llenas de estrellas hasta maravillas naturales, es un lugar que inspira, entretiene y cautiva. Entonces, abraza la magia, disfruta del sol y permite que Los Ángeles te revele sus secretos. ¡Tu aventura comienza aquí!</p>
+									
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- // texto -->
+					
+					 <!-- Related Posts -->
+                   
+                    <!-- // Related Posts -->
+
+                    <!--  map  -->
+                    <div class="background-white border-1 border-grey-1 margin-tb-35px padding-30px">
+					  <h4 class="table-title margin-bottom-30px  trn"><span class="trn">Donde estamos</span></h4>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.826750461358!2d-118.3980210253578!3d33.94558382335651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b12afd9e447d%3A0xc8012ee1f3abc796!2s6625%20W%20Century%20Blvd%2C%20Los%20Angeles%2C%20CA%2090045%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1695315565373!5m2!1ses!2sar" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <!-- // map  -->
+
+
+                   
+
+                  
+
+
+                </div>
+                <!-- //  content -->
+
+            </div>
         </div>
-        <!-- //  container -->
     </div>
     <!-- //  page output -->
 
 
-  
 
- <!-- Footer -->
- <footer class="text-center text-lg-left">
+  
+   <!-- Footer -->
+   <footer class="text-center text-lg-left">
     <div class="container">
         <div class="row padding-tb-30px">
             <div class="col-lg-6 sm-mb-35px">
@@ -668,13 +494,10 @@
 </footer>
     <!-- // Footer -->
     <script type="text/javascript" src="js/custom.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui.js"></script>
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-	
-	
-
 
 
 </body>
