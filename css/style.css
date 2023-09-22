@@ -108,9 +108,25 @@ select {
 .search-filter select {
     position: relative;
     padding-left: 35px;
-	color: ##818179;
+	color: #818179;
 }
 
+.search-filter .destination::before {
+display: none;
+}
+.search-filter .date-input:before {
+    display: none;
+}
+
+.search-filter .time-input:before {
+    display: none;
+}
+
+.ui-datepicker-header {
+    
+    background: #0a5994;
+   
+}
 .full-width {
     width: 100%;
 }
